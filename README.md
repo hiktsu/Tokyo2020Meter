@@ -12,4 +12,4 @@ iOS 14
 2. unzip and open Tokyo2020Meter.xcodeproj by XCode 12.
 3. build and install to your iPhone
 4. long tap blank area on home screen and push + button on iPhone
-5. Find and tap Tokyo2020Meter and choose a small widget so that the widget of the app shows up on the home screen.
+5. Find and tap Tokyo2020Meter and choose a widget so that the widget of the app shows up on the home screen.
