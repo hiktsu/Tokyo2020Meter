@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178AE8262526AECE00EE1929 /* Tokyo2020MeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8252526AECE00EE1929 /* Tokyo2020MeterApp.swift */; };
+		178AE8282526AECE00EE1929 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8272526AECE00EE1929 /* ContentView.swift */; };
+		178AE82A2526AED100EE1929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178AE8292526AED100EE1929 /* Assets.xcassets */; };
+		178AE82D2526AED100EE1929 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178AE82C2526AED100EE1929 /* Preview Assets.xcassets */; };
+		178AE8382526AED100EE1929 /* Tokyo2020MeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8372526AED100EE1929 /* Tokyo2020MeterTests.swift */; };
+		178AE8432526AED100EE1929 /* Tokyo2020MeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8422526AED100EE1929 /* Tokyo2020MeterUITests.swift */; };
+		178AE85A2526AF4E00EE1929 /* Tokyo2020MeterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8592526AF4E00EE1929 /* Tokyo2020MeterData.swift */; };
+		178AE8622526BD8B00EE1929 /* Tokyo2020MeterDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8612526BD8B00EE1929 /* Tokyo2020MeterDataClass.swift */; };
+		178AE86D2526DC0800EE1929 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178AE86C2526DC0800EE1929 /* WidgetKit.framework */; };
+		178AE86F2526DC0800EE1929 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178AE86E2526DC0800EE1929 /* SwiftUI.framework */; };
+		178AE8722526DC0800EE1929 /* WidgetTokyo2020View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8712526DC0800EE1929 /* WidgetTokyo2020View.swift */; };
+		178AE8752526DC0900EE1929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178AE8742526DC0900EE1929 /* Assets.xcassets */; };
+		178AE8772526DC0900EE1929 /* WidgetTokyo2020View.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8732526DC0800EE1929 /* WidgetTokyo2020View.intentdefinition */; };
+		178AE8782526DC0900EE1929 /* WidgetTokyo2020View.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8732526DC0800EE1929 /* WidgetTokyo2020View.intentdefinition */; };
+		178AE87B2526DC0900EE1929 /* WidgetTokyo2020ViewExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 178AE86A2526DC0800EE1929 /* WidgetTokyo2020ViewExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		178AE8842526DC3D00EE1929 /* Tokyo2020MeterDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8612526BD8B00EE1929 /* Tokyo2020MeterDataClass.swift */; };
+		178AE8862526DC3D00EE1929 /* Tokyo2020MeterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178AE8592526AF4E00EE1929 /* Tokyo2020MeterData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178AE8342526AED100EE1929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178AE81A2526AECE00EE1929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178AE8212526AECE00EE1929;
+			remoteInfo = Tokyo2020Meter;
+		};
+		178AE83F2526AED100EE1929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178AE81A2526AECE00EE1929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178AE8212526AECE00EE1929;
+			remoteInfo = Tokyo2020Meter;
+		};
+		178AE8792526DC0900EE1929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178AE81A2526AECE00EE1929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178AE8692526DC0800EE1929;
+			remoteInfo = WidgetTokyo2020ViewExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		178AE87F2526DC0900EE1929 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				178AE87B2526DC0900EE1929 /* WidgetTokyo2020ViewExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		178AE8222526AECE00EE1929 /* Tokyo2020Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokyo2020Meter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178AE8252526AECE00EE1929 /* Tokyo2020MeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokyo2020MeterApp.swift; sourceTree = "<group>"; };
+		178AE8272526AECE00EE1929 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		178AE8292526AED100EE1929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178AE82C2526AED100EE1929 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		178AE82E2526AED100EE1929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178AE8332526AED100EE1929 /* Tokyo2020MeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tokyo2020MeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178AE8372526AED100EE1929 /* Tokyo2020MeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokyo2020MeterTests.swift; sourceTree = "<group>"; };
+		178AE8392526AED100EE1929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178AE83E2526AED100EE1929 /* Tokyo2020MeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tokyo2020MeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178AE8422526AED100EE1929 /* Tokyo2020MeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokyo2020MeterUITests.swift; sourceTree = "<group>"; };
+		178AE8442526AED100EE1929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178AE8592526AF4E00EE1929 /* Tokyo2020MeterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokyo2020MeterData.swift; sourceTree = "<group>"; };
+		178AE8612526BD8B00EE1929 /* Tokyo2020MeterDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokyo2020MeterDataClass.swift; sourceTree = "<group>"; };
+		178AE86A2526DC0800EE1929 /* WidgetTokyo2020ViewExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetTokyo2020ViewExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		178AE86C2526DC0800EE1929 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		178AE86E2526DC0800EE1929 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		178AE8712526DC0800EE1929 /* WidgetTokyo2020View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTokyo2020View.swift; sourceTree = "<group>"; };
+		178AE8732526DC0800EE1929 /* WidgetTokyo2020View.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetTokyo2020View.intentdefinition; sourceTree = "<group>"; };
+		178AE8742526DC0900EE1929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178AE8762526DC0900EE1929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178AE81F2526AECE00EE1929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE8302526AED100EE1929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE83B2526AED100EE1929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE8672526DC0800EE1929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178AE86F2526DC0800EE1929 /* SwiftUI.framework in Frameworks */,
+				178AE86D2526DC0800EE1929 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178AE8192526AECE00EE1929 = {
+			isa = PBXGroup;
+			children = (
+				178AE8242526AECE00EE1929 /* Tokyo2020Meter */,
+				178AE8362526AED100EE1929 /* Tokyo2020MeterTests */,
+				178AE8412526AED100EE1929 /* Tokyo2020MeterUITests */,
+				178AE8702526DC0800EE1929 /* WidgetTokyo2020View */,
+				178AE86B2526DC0800EE1929 /* Frameworks */,
+				178AE8232526AECE00EE1929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178AE8232526AECE00EE1929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178AE8222526AECE00EE1929 /* Tokyo2020Meter.app */,
+				178AE8332526AED100EE1929 /* Tokyo2020MeterTests.xctest */,
+				178AE83E2526AED100EE1929 /* Tokyo2020MeterUITests.xctest */,
+				178AE86A2526DC0800EE1929 /* WidgetTokyo2020ViewExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178AE8242526AECE00EE1929 /* Tokyo2020Meter */ = {
+			isa = PBXGroup;
+			children = (
+				178AE8582526AF2600EE1929 /* Models */,
+				178AE8252526AECE00EE1929 /* Tokyo2020MeterApp.swift */,
+				178AE8272526AECE00EE1929 /* ContentView.swift */,
+				178AE8292526AED100EE1929 /* Assets.xcassets */,
+				178AE82E2526AED100EE1929 /* Info.plist */,
+				178AE82B2526AED100EE1929 /* Preview Content */,
+			);
+			path = Tokyo2020Meter;
+			sourceTree = "<group>";
+		};
+		178AE82B2526AED100EE1929 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				178AE82C2526AED100EE1929 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		178AE8362526AED100EE1929 /* Tokyo2020MeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				178AE8372526AED100EE1929 /* Tokyo2020MeterTests.swift */,
+				178AE8392526AED100EE1929 /* Info.plist */,
+			);
+			path = Tokyo2020MeterTests;
+			sourceTree = "<group>";
+		};
+		178AE8412526AED100EE1929 /* Tokyo2020MeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				178AE8422526AED100EE1929 /* Tokyo2020MeterUITests.swift */,
+				178AE8442526AED100EE1929 /* Info.plist */,
+			);
+			path = Tokyo2020MeterUITests;
+			sourceTree = "<group>";
+		};
+		178AE8582526AF2600EE1929 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				178AE8592526AF4E00EE1929 /* Tokyo2020MeterData.swift */,
+				178AE8612526BD8B00EE1929 /* Tokyo2020MeterDataClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		178AE86B2526DC0800EE1929 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				178AE86C2526DC0800EE1929 /* WidgetKit.framework */,
+				178AE86E2526DC0800EE1929 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		178AE8702526DC0800EE1929 /* WidgetTokyo2020View */ = {
+			isa = PBXGroup;
+			children = (
+				178AE8712526DC0800EE1929 /* WidgetTokyo2020View.swift */,
+				178AE8732526DC0800EE1929 /* WidgetTokyo2020View.intentdefinition */,
+				178AE8742526DC0900EE1929 /* Assets.xcassets */,
+				178AE8762526DC0900EE1929 /* Info.plist */,
+			);
+			path = WidgetTokyo2020View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178AE8212526AECE00EE1929 /* Tokyo2020Meter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178AE8472526AED100EE1929 /* Build configuration list for PBXNativeTarget "Tokyo2020Meter" */;
+			buildPhases = (
+				178AE81E2526AECE00EE1929 /* Sources */,
+				178AE81F2526AECE00EE1929 /* Frameworks */,
+				178AE8202526AECE00EE1929 /* Resources */,
+				178AE87F2526DC0900EE1929 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178AE87A2526DC0900EE1929 /* PBXTargetDependency */,
+			);
+			name = Tokyo2020Meter;
+			productName = Tokyo2020Meter;
+			productReference = 178AE8222526AECE00EE1929 /* Tokyo2020Meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		178AE8322526AED100EE1929 /* Tokyo2020MeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178AE84A2526AED100EE1929 /* Build configuration list for PBXNativeTarget "Tokyo2020MeterTests" */;
+			buildPhases = (
+				178AE82F2526AED100EE1929 /* Sources */,
+				178AE8302526AED100EE1929 /* Frameworks */,
+				178AE8312526AED100EE1929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178AE8352526AED100EE1929 /* PBXTargetDependency */,
+			);
+			name = Tokyo2020MeterTests;
+			productName = Tokyo2020MeterTests;
+			productReference = 178AE8332526AED100EE1929 /* Tokyo2020MeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		178AE83D2526AED100EE1929 /* Tokyo2020MeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178AE84D2526AED100EE1929 /* Build configuration list for PBXNativeTarget "Tokyo2020MeterUITests" */;
+			buildPhases = (
+				178AE83A2526AED100EE1929 /* Sources */,
+				178AE83B2526AED100EE1929 /* Frameworks */,
+				178AE83C2526AED100EE1929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178AE8402526AED100EE1929 /* PBXTargetDependency */,
+			);
+			name = Tokyo2020MeterUITests;
+			productName = Tokyo2020MeterUITests;
+			productReference = 178AE83E2526AED100EE1929 /* Tokyo2020MeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		178AE8692526DC0800EE1929 /* WidgetTokyo2020ViewExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178AE87C2526DC0900EE1929 /* Build configuration list for PBXNativeTarget "WidgetTokyo2020ViewExtension" */;
+			buildPhases = (
+				178AE8662526DC0800EE1929 /* Sources */,
+				178AE8672526DC0800EE1929 /* Frameworks */,
+				178AE8682526DC0800EE1929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetTokyo2020ViewExtension;
+			productName = WidgetTokyo2020ViewExtension;
+			productReference = 178AE86A2526DC0800EE1929 /* WidgetTokyo2020ViewExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178AE81A2526AECE00EE1929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					178AE8212526AECE00EE1929 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					178AE8322526AED100EE1929 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 178AE8212526AECE00EE1929;
+					};
+					178AE83D2526AED100EE1929 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 178AE8212526AECE00EE1929;
+					};
+					178AE8692526DC0800EE1929 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 178AE81D2526AECE00EE1929 /* Build configuration list for PBXProject "Tokyo2020Meter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178AE8192526AECE00EE1929;
+			productRefGroup = 178AE8232526AECE00EE1929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178AE8212526AECE00EE1929 /* Tokyo2020Meter */,
+				178AE8322526AED100EE1929 /* Tokyo2020MeterTests */,
+				178AE83D2526AED100EE1929 /* Tokyo2020MeterUITests */,
+				178AE8692526DC0800EE1929 /* WidgetTokyo2020ViewExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178AE8202526AECE00EE1929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178AE82D2526AED100EE1929 /* Preview Assets.xcassets in Resources */,
+				178AE82A2526AED100EE1929 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE8312526AED100EE1929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE83C2526AED100EE1929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE8682526DC0800EE1929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178AE8752526DC0900EE1929 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178AE81E2526AECE00EE1929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178AE85A2526AF4E00EE1929 /* Tokyo2020MeterData.swift in Sources */,
+				178AE8282526AECE00EE1929 /* ContentView.swift in Sources */,
+				178AE8262526AECE00EE1929 /* Tokyo2020MeterApp.swift in Sources */,
+				178AE8782526DC0900EE1929 /* WidgetTokyo2020View.intentdefinition in Sources */,
+				178AE8622526BD8B00EE1929 /* Tokyo2020MeterDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE82F2526AED100EE1929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178AE8382526AED100EE1929 /* Tokyo2020MeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE83A2526AED100EE1929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178AE8432526AED100EE1929 /* Tokyo2020MeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178AE8662526DC0800EE1929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178AE8842526DC3D00EE1929 /* Tokyo2020MeterDataClass.swift in Sources */,
+				178AE8772526DC0900EE1929 /* WidgetTokyo2020View.intentdefinition in Sources */,
+				178AE8722526DC0800EE1929 /* WidgetTokyo2020View.swift in Sources */,
+				178AE8862526DC3D00EE1929 /* Tokyo2020MeterData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178AE8352526AED100EE1929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178AE8212526AECE00EE1929 /* Tokyo2020Meter */;
+			targetProxy = 178AE8342526AED100EE1929 /* PBXContainerItemProxy */;
+		};
+		178AE8402526AED100EE1929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178AE8212526AECE00EE1929 /* Tokyo2020Meter */;
+			targetProxy = 178AE83F2526AED100EE1929 /* PBXContainerItemProxy */;
+		};
+		178AE87A2526DC0900EE1929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178AE8692526DC0800EE1929 /* WidgetTokyo2020ViewExtension */;
+			targetProxy = 178AE8792526DC0900EE1929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		178AE8452526AED100EE1929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178AE8462526AED100EE1929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178AE8482526AED100EE1929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tokyo2020Meter/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tokyo2020Meter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.Tokyo2020Meter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178AE8492526AED100EE1929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tokyo2020Meter/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tokyo2020Meter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.Tokyo2020Meter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		178AE84B2526AED100EE1929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				INFOPLIST_FILE = Tokyo2020MeterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.Tokyo2020MeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokyo2020Meter.app/Tokyo2020Meter";
+			};
+			name = Debug;
+		};
+		178AE84C2526AED100EE1929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				INFOPLIST_FILE = Tokyo2020MeterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.Tokyo2020MeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokyo2020Meter.app/Tokyo2020Meter";
+			};
+			name = Release;
+		};
+		178AE84E2526AED100EE1929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				INFOPLIST_FILE = Tokyo2020MeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.Tokyo2020MeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tokyo2020Meter;
+			};
+			name = Debug;
+		};
+		178AE84F2526AED100EE1929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				INFOPLIST_FILE = Tokyo2020MeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.Tokyo2020MeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tokyo2020Meter;
+			};
+			name = Release;
+		};
+		178AE87D2526DC0900EE1929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				INFOPLIST_FILE = WidgetTokyo2020View/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.Tokyo2020Meter.WidgetTokyo2020View;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178AE87E2526DC0900EE1929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FJ5BS2TAS;
+				INFOPLIST_FILE = WidgetTokyo2020View/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hikaru.Tokyo2020Meter.WidgetTokyo2020View;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178AE81D2526AECE00EE1929 /* Build configuration list for PBXProject "Tokyo2020Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178AE8452526AED100EE1929 /* Debug */,
+				178AE8462526AED100EE1929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178AE8472526AED100EE1929 /* Build configuration list for PBXNativeTarget "Tokyo2020Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178AE8482526AED100EE1929 /* Debug */,
+				178AE8492526AED100EE1929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178AE84A2526AED100EE1929 /* Build configuration list for PBXNativeTarget "Tokyo2020MeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178AE84B2526AED100EE1929 /* Debug */,
+				178AE84C2526AED100EE1929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178AE84D2526AED100EE1929 /* Build configuration list for PBXNativeTarget "Tokyo2020MeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178AE84E2526AED100EE1929 /* Debug */,
+				178AE84F2526AED100EE1929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178AE87C2526DC0900EE1929 /* Build configuration list for PBXNativeTarget "WidgetTokyo2020ViewExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178AE87D2526DC0900EE1929 /* Debug */,
+				178AE87E2526DC0900EE1929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178AE81A2526AECE00EE1929 /* Project object */;
+}
