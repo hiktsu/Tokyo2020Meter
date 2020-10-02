@@ -51,8 +51,9 @@ struct WidgetTokyo2020View: Widget {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             WidgetTokyo2020ViewEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
+        .configurationDisplayName("Tokyo 2020 meter")
         .description("This is an example widget.")
+        .supportedFamilies([.systemSmall])
     }
 }
 
